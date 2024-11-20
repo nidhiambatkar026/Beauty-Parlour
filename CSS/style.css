@@ -27,6 +27,23 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ff8ba7;
 }
+.input_search{
+    height: 40px;
+    width: 350px;
+    margin-top: 25px;
+    margin-left: 60px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 3px solid #ff8ba7;
+    border-radius: 20px;
+    color: #ff8ba7;
+}
+.search_emoji{
+    height: 35px;
+    width: 35px;
+    margin-top: 33px;
+    margin-left: 10px;
+}
 
 /*Mobile Devices*/
 @media screen  and (max-width: 768px){
@@ -58,9 +75,18 @@ body{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: #ff8ba7;
     }
+    .input_search{
+        display: none;
+    }
+    .search_emoji{
+        height: 25px;
+        width: 25px;
+        margin-top: 33px;
+        margin-left: 40px;
+    }
 }
 /*tablets*/
-@media screen and (min-width: 769px) and (max-width: 992px){
+@media screen and (min-width: 769px) and (max-width: 1363px){
     .navbar{
         background-color: #faeee7;
         height: 90px;
@@ -77,16 +103,25 @@ body{
         color: #ff8ba7;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: bold;
-        font-size:25px;
+        font-size:30px;
     } 
     .menus{
         margin-top: 40px;
-        margin-left: 20px;
+        margin-left: 40px;
     }
     .menu_item{
-        margin-left: 15px;
-        font-size: 20px;
+        margin-left: 25px;
+        font-size: 16px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: #ff8ba7;
+    }
+    .input_search{
+        display: none;
+    }
+    .search_emoji{
+        height: 30px;
+        width: 30px;
+        margin-top: 36px;
+        margin-left: 60px;
     }
 }
