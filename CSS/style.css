@@ -28,7 +28,6 @@ body{
     color: #ff8ba7;
 }
 
-
 /*Mobile Devices*/
 @media screen  and (max-width: 768px){
     .navbar{
@@ -49,6 +48,16 @@ body{
         font-weight: bold;
         font-size:20px;
     } 
+    .menus{
+        margin-top: 35px;
+        margin-left: 20px;
+    }
+    .menu_item{
+        margin-left: 15px;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #ff8ba7;
+    }
 }
 /*tablets*/
 @media screen and (min-width: 769px) and (max-width: 992px){
@@ -70,4 +79,14 @@ body{
         font-weight: bold;
         font-size:25px;
     } 
+    .menus{
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    .menu_item{
+        margin-left: 15px;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #ff8ba7;
+    }
 }
