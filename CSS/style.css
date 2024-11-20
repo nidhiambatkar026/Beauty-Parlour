@@ -1,3 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .navbar{
-    background-color: #faeee7
+    background-color: #faeee7;
+    height: 100px;
+    display: flex;
+}
+.logo{
+    height: 90px;
+    width: 90px;
+}
+.nav_text{
+    color: #ff8ba7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size:30px;
 }
