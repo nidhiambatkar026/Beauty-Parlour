@@ -30,6 +30,23 @@ body{
 
 
 /*Mobile Devices*/
-@media screen  and {
-    
+@media screen  and (max-width: 768px){
+    .navbar{
+        background-color: #faeee7;
+        height: 80px;
+        display: flex;
+    }
+    .logo_text{
+        margin-top: 10px;
+    }
+    .logo{
+        height: 70px;
+        width: 70px;
+    }
+    .nav_text{
+        color: #ff8ba7;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        font-size:20px;
+    } 
 }
