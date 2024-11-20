@@ -50,3 +50,24 @@ body{
         font-size:20px;
     } 
 }
+/*tablets*/
+@media screen and (min-width: 769px) and (max-width: 992px){
+    .navbar{
+        background-color: #faeee7;
+        height: 90px;
+        display: flex;
+    }
+    .logo_text{
+        margin-top: 8px;
+    }
+    .logo{
+        height: 80px;
+        width: 80px;
+    }
+    .nav_text{
+        color: #ff8ba7;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        font-size:25px;
+    } 
+}
