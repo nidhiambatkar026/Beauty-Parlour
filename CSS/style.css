@@ -17,6 +17,17 @@ body{
     font-weight: bold;
     font-size:30px;
 }
+.menus{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.menu_item{
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ff8ba7;
+}
+
 
 /*Mobile Devices*/
 @media screen  and {
